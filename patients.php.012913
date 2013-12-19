@@ -1,0 +1,103 @@
+<?php
+require '../db/dbaccess.php';
+session_start();
+if(!session_is_registered(team1)){
+header("location:index.php");
+}
+$storedVars = $_SESSION['team1'];
+$user_name = $storedVars[1];
+$user_teamid = $storedVars[2];
+$user_admin_access = $storedVars[3];
+$sort=$_GET['s'];
+$search=$_GET['search'];
+$field = "patient_name";
+if ($sort == 's') $field = "patient_study_id, patient_name";
+if ($sort == 'd') $field = "patient_doctor, patient_name";
+$whereclause = "";
+if ($sort == 'x') $query = "select patient_name, patient_id, patient_study_id, patient_doctor  from patient where ( (patient_teamid = $user_teamid) and ( (patient_id like '%$search%') or (patient_name like '%$search%')or (patient_doctor like '%$search%') or (patient_study_id like '%$search%') ) ) order by patient_name"; 
+// let get all the patients
+if ($sort != 'x') $query = "select patient_name, patient_id, patient_study_id, patient_doctor  from patient where patient_teamid = $user_teamid order by $field";
+
+$dbresult = mysql_query($query, $dbconnect);
+$num=mysql_numrows($dbresult);
+?>
+<html>
+    <head>
+        <title>TEAM Patients</title>
+<?php
+
+include 'menu.php';
+?>
+<table style="margin: auto;" border="0" cellpadding="2" cellspacing="2" width="75%">
+<tbody>
+<tr>
+<td valign="top" align="right">
+<form action="patients.php" method="get">
+<input type="submit" value="Sort By Name">
+<input type="hidden" name="s" value="n">
+</form></td><td>
+<td valign="top" align="right">
+<form action="patients.php" method="get">
+<input type="submit" value="Sort By Study">
+<input type="hidden" name="s" value="s">
+</form></td><td>
+<td valign="top" align="right">
+<form action="patients.php" method="get">
+<input type="submit" value="Sort By Doctor">
+<input type="hidden" name="s" value="d">
+</form>&nbsp;&nbsp;&nbsp;</td><td valign="top" align="right">
+<form action="patients.php" method="get">
+<input type="submit" value="Search Patients">
+<input type="text" name="search" id="search" size="10" value="">
+<input type="hidden" name="s" value="x">
+</form>
+</td>
+</tr>
+</tbody>
+</table>
+</div> 
+
+<table style="margin: auto;" border="0" cellpadding="2"
+cellspacing="2" width="75%">
+<tbody>
+<tr>
+<td valign="top">Name<br>
+</td>
+<td valign="top">Patient ID<br>
+</td>
+<td valign="top">Study<br>
+</td>
+<td valign="top">Doctor<br>
+</td>
+
+</tr>
+<?php              
+$i=0;
+while ($i < $num) {
+  $patient_name=mysql_result($dbresult,$i,"patient_name");
+  $patient_id=mysql_result($dbresult,$i,"patient_id");
+  $patient_study_id=mysql_result($dbresult,$i,"patient_study_id");
+  $patient_doctor=mysql_result($dbresult,$i,"patient_doctor");
+  $urledit = "patientedit.php?patient_id=$patient_id";
+  echo "<tr>";
+  echo "<td valign=\"top\"><a href=\"$urledit\">$patient_name</a><br>";
+  echo "</td>";
+  echo "<td valign=\"top\">$patient_id<br>";
+  echo "</td>";
+  echo "<td valign=\"top\">$patient_study_id<br>";
+  echo "</td>";
+  echo "<td valign=\"top\">$patient_doctor<br>";
+  echo "</td>";
+  
+  echo "</tr>";
+  $i++;
+  }
+$audit_type = 'l1';
+//include 'auditlog.php';
+
+?>
+</tbody>
+</table>
+<br>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<?php
+$teamtitle = "TEAM Compare Images";
+include 'teamtop1.php';
+?>
+<script src="http://rvolve.com/js/zoom-pic-intro-3.0.js" type="text/javascript"></script> 
+<?php
+include 'teamtop2.php';
+?>
+<table style="margin: auto;" border="0" cellpadding="2"
+cellspacing="2" width="75%">
+<tbody>
+<tr>
+<?php
+$patient_id=$_POST['patient_id'];
+$patient_name=$_POST['patient_name'];
+$beforeimage=$_POST['beforeimage'];
+$afterimage=$_POST['afterimage'];
+$patient_name=$_POST['patient_name'];
+echo "<td colspan=2 valign=\"top\" align=\"center\"><h2>Images for $patient_name ($patient_id)</h2>";
+?>
+</td></tr>
+<?php
+
+// beforeimage and afterimage - xxxx|yyyymmdd|nn|xxx|xxxxx
+$array1 = preg_split("/[|]/", $beforeimage);
+$patient_id1 = $array1[0];
+$lesion_scan_date1 = $array1[1];
+$newdate1 = date("mdy",strtotime($lesion_scan_date1));
+$datedisplay1 = date("m/d/y",strtotime($lesion_scan_date1));
+$lesion_number1 = $array1[2];
+$lesion_type1 = $array1[3];
+$lesion_size1 = $array1[4];
+$file1 = "$patient_id1-$newdate1-$lesion_number1.$lesion_type1";
+
+$array2 = preg_split("/[|]/", $afterimage);
+$patient_id2 = $array2[0];
+$lesion_scan_date2 = $array2[1];
+$newdate2 = date("mdy",strtotime($lesion_scan_date2));
+$datedisplay2 = date("m/d/y",strtotime($lesion_scan_date2));
+$lesion_number2 = $array2[2];
+$lesion_type2 = $array2[3];
+$lesion_size2 = $array2[4];
+$file2 = "$patient_id2-$newdate2-$lesion_number2.$lesion_type2";
+
+$fn="$file1 and $file2";
+$audit_type = 'vfm8';
+include 'auditlog.php';
+echo "<tr><td align=center valign=\"top\"><h3>Lesion #$lesion_number1 on $datedisplay1 ($lesion_size1 mm)</h2></td><td align=center valign=\"top\"><h3>Lesion #$lesion_number2 on $datedisplay2 ($lesion_size2 mm)</h2></td>";
+
+echo "<tr><td align=center><div id=\"my_zoom1\" class=\"zoompic\" data-src=\"http://$imagedoc_server/$file1\" data-animate=\"true\" data-width=\"500\" data-height=\"500\" data-zoomicon=\"gray\"></div></td><td align=center><div id=\"my_zoom2\" class=\"zoompic\" data-src=\"http://$imagedoc_server/$file2\" data-animate=\"true\" data-width=\"500\" data-height=\"500\" data-zoomicon=\"gray\"></div> </td></tr>";
+
+
+?>
+</tbody>
+</table>
+<br>
+</body>
+</html>

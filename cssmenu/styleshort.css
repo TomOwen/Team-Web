@@ -1,0 +1,37 @@
+/**
+	http://css-plus.com
+	By Jamy Golden
+**/
+a:hover{text-decoration: none;}
+p{margin: 0 0 20px 0; text-align: center;}
+#menu{background-color: #f1f1f1; /* fallback color */
+	background-image: url(../images/svg-gradient.svg); /* Gradient support for IE9 and Opera */
+	background-image: -moz-linear-gradient(100% 100% 90deg, #ccc, #f1f1f1);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f1f1f1), to(#ccc));
+	-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;
+	-moz-box-shadow: 0 0 5px #5C5C5C; -webkit-box-shadow: 0 0 5px #5C5C5C; box-shadow: 0 0 5px #5C5C5C; 
+	height: 30px; font: 18px Georgia, serif; margin: 0 auto; width: 700px; 
+}
+#menu li{float: left; padding: 0 23px; position: relative; line-height: 30px;}
+
+#menu > li ul{height: 0; overflow: hidden; position: absolute; left: 0; top: 30px; 
+	-moz-transition-property: height; -moz-transition-duration: 0.2s; -moz-transition-timing-function: linear, ease-in;
+	-webkit-transition-property: height; -webkit-transition-duration: 0.2s; -webkit-transition-timing-function: linear, ease-in;
+	transition-property: height; transition-duration: 0.2s; transition-timing-function: linear, ease-in;
+}
+
+#menu > li > ul{background: #cdcdcd; 	
+	-moz-border-radius-bottomleft: 10px; -moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px; -webkit-border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;
+}
+
+#menu li li{margin: 4px 0; font: 14px Arial, Helvetica, Verdana, san-serif; text-shadow: none;}
+#menu > li.freebies:hover ul{height: 100px;}
+#menu > li.tutorials:hover ul{height: 75px;}
+
+
+#menu a{color: #333; padding: 1px 10px; text-shadow: 1px 1px 2px #999;}
+#menu a:hover{background: #d6d6d6; 
+	-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;
+}

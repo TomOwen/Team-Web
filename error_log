@@ -1,0 +1,574 @@
+[09-Jan-2013 13:03:08] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/checklogin.php on line 17
+[09-Jan-2013 13:11:28] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: patient_id not found in MySQL result index 3 in /home/team/public_html/wv/checklogin.php on line 20
+[09-Jan-2013 13:11:28] PHP Warning:  session_register() [<a href='function.session-register'>function.session-register</a>]: Cannot send session cookie - headers already sent by (output started at /home/team/public_html/wv/checklogin.php:3) in /home/team/public_html/wv/checklogin.php on line 30
+[09-Jan-2013 13:11:28] PHP Warning:  session_register() [<a href='function.session-register'>function.session-register</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/checklogin.php:3) in /home/team/public_html/wv/checklogin.php on line 30
+[09-Jan-2013 13:11:28] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/checklogin.php:3) in /home/team/public_html/wv/checklogin.php on line 32
+[09-Jan-2013 13:11:51] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: patient_id not found in MySQL result index 3 in /home/team/public_html/wv/checklogin.php on line 20
+[09-Jan-2013 13:11:51] PHP Warning:  session_register() [<a href='function.session-register'>function.session-register</a>]: Cannot send session cookie - headers already sent by (output started at /home/team/public_html/wv/checklogin.php:3) in /home/team/public_html/wv/checklogin.php on line 30
+[09-Jan-2013 13:11:51] PHP Warning:  session_register() [<a href='function.session-register'>function.session-register</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/checklogin.php:3) in /home/team/public_html/wv/checklogin.php on line 30
+[09-Jan-2013 13:11:51] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/checklogin.php:3) in /home/team/public_html/wv/checklogin.php on line 32
+[09-Jan-2013 13:13:14] PHP Warning:  session_register() [<a href='function.session-register'>function.session-register</a>]: Cannot send session cookie - headers already sent by (output started at /home/team/public_html/wv/checklogin.php:7) in /home/team/public_html/wv/checklogin.php on line 30
+[09-Jan-2013 13:13:14] PHP Warning:  session_register() [<a href='function.session-register'>function.session-register</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/checklogin.php:7) in /home/team/public_html/wv/checklogin.php on line 30
+[09-Jan-2013 13:13:14] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/checklogin.php:7) in /home/team/public_html/wv/checklogin.php on line 32
+[09-Jan-2013 13:20:04] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/teammenuwv.php:3) in /home/team/public_html/wv/teammenuwv.php on line 4
+[09-Jan-2013 13:48:23] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/team/public_html/wv/teammenuwv.php on line 7
+[09-Jan-2013 14:00:48] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/team/public_html/wv/teammenuwv.php on line 14
+[09-Jan-2013 14:00:48] PHP Parse error:  syntax error, unexpected T_STRING in /home/team/public_html/wv/teammenuwv.php on line 14
+[09-Jan-2013 14:01:16] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/team/public_html/wv/teammenuwv.php on line 14
+[09-Jan-2013 14:01:16] PHP Parse error:  syntax error, unexpected T_STRING in /home/team/public_html/wv/teammenuwv.php on line 14
+[09-Jan-2013 15:07:12] PHP Warning:  session_destroy() [<a href='function.session-destroy'>function.session-destroy</a>]: Trying to destroy uninitialized session in /home/team/public_html/wv/checklogin.php on line 4
+[09-Jan-2013 15:07:12] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/checklogin.php:4) in /home/team/public_html/wv/checklogin.php on line 34
+[09-Jan-2013 15:07:12] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/checklogin.php:4) in /home/team/public_html/wv/checklogin.php on line 42
+[09-Jan-2013 15:50:30] PHP Parse error:  syntax error, unexpected ':' in /home/team/public_html/wv/test_checklogin.php on line 37
+[09-Jan-2013 15:51:17] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/test_checklogin.php:36) in /home/team/public_html/wv/test_checklogin.php on line 41
+[09-Jan-2013 15:53:39] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/test_checklogin.php:36) in /home/team/public_html/wv/test_checklogin.php on line 41
+[09-Jan-2013 15:55:11] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 33
+[09-Jan-2013 15:55:11] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 35
+[09-Jan-2013 15:55:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 41
+[09-Jan-2013 15:57:26] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 34
+[09-Jan-2013 15:57:26] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 36
+[09-Jan-2013 15:57:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 42
+[09-Jan-2013 15:58:51] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 34
+[09-Jan-2013 15:58:51] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 36
+[09-Jan-2013 15:58:51] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 44
+[09-Jan-2013 16:00:20] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 34
+[09-Jan-2013 16:00:20] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 36
+[09-Jan-2013 16:00:20] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 44
+[09-Jan-2013 16:02:02] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 34
+[09-Jan-2013 16:02:02] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 36
+[09-Jan-2013 16:02:02] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 44
+[09-Jan-2013 16:02:17] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 34
+[09-Jan-2013 16:02:17] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 36
+[09-Jan-2013 16:02:17] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 44
+[09-Jan-2013 16:06:36] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 34
+[09-Jan-2013 16:06:36] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 36
+[09-Jan-2013 16:06:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 44
+[09-Jan-2013 16:06:56] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 34
+[09-Jan-2013 16:06:56] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 36
+[09-Jan-2013 16:06:56] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 44
+[09-Jan-2013 16:13:14] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 34
+[09-Jan-2013 16:13:14] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 36
+[09-Jan-2013 16:13:14] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 45
+[09-Jan-2013 16:13:32] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 34
+[09-Jan-2013 16:13:32] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 36
+[09-Jan-2013 16:13:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/test_checklogin.php:3) in /home/team/public_html/wv/test_checklogin.php on line 45
+[11-Jan-2013 12:57:27] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/team/public_html/wv/teamlogin.php on line 45
+[11-Jan-2013 12:58:07] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teamlogin.php:44) in /home/team/public_html/wv/teamlogin.php on line 46
+[11-Jan-2013 12:59:09] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/team/public_html/wv/teamlogin.php on line 46
+[11-Jan-2013 13:00:09] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/team/public_html/wv/teamlogin.php on line 46
+[11-Jan-2013 13:01:25] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teamlogin.php:44) in /home/team/public_html/wv/teamlogin.php on line 46
+[12-Jan-2013 12:24:25] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/team/public_html/wv/patients.php on line 12
+[12-Jan-2013 12:24:25] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 13
+[12-Jan-2013 12:25:53] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 14
+[12-Jan-2013 12:57:16] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 18
+[12-Jan-2013 12:58:46] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 19
+[12-Jan-2013 12:59:04] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 19
+[12-Jan-2013 15:22:24] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientadd.php on line 126
+[12-Jan-2013 15:23:10] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientadd.php on line 126
+[12-Jan-2013 15:36:01] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientadd2.php on line 91
+[13-Jan-2013 12:46:28] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 19
+[14-Jan-2013 11:05:41] PHP Warning:  session_destroy() [<a href='function.session-destroy'>function.session-destroy</a>]: Trying to destroy uninitialized session in /home/team/public_html/wv/index.php on line 4
+[14-Jan-2013 12:18:55] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/team/public_html/wv/patientedit.php on line 151
+[14-Jan-2013 12:19:32] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/team/public_html/wv/patientedit.php on line 151
+[14-Jan-2013 12:30:14] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 22
+[15-Jan-2013 12:10:04] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/team/public_html/wv/lesions.php on line 40
+[15-Jan-2013 13:03:11] PHP Parse error:  syntax error, unexpected '=' in /home/team/public_html/wv/scandelete.php on line 44
+[15-Jan-2013 13:04:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/scandelete.php:18) in /home/team/public_html/wv/scandelete.php on line 45
+[15-Jan-2013 13:04:53] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/scandelete.php:18) in /home/team/public_html/wv/scandelete.php on line 44
+[15-Jan-2013 13:16:28] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/scanadd.php:23) in /home/team/public_html/wv/scanadd.php on line 83
+[15-Jan-2013 17:32:28] PHP Parse error:  syntax error, unexpected '<' in /home/team/public_html/wv/lesionedit.php on line 98
+[15-Jan-2013 18:34:20] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/team/public_html/wv/lesionview.php on line 36
+[16-Jan-2013 11:33:01] PHP Parse error:  syntax error, unexpected ',' in /home/team/public_html/wv/studies.php on line 48
+[16-Jan-2013 11:45:36] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/doctors.php on line 14
+[16-Jan-2013 12:52:08] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/team/public_html/wv/lesions.php on line 122
+[16-Jan-2013 16:06:24] PHP Parse error:  syntax error, unexpected ';' in /home/team/public_html/wv/testmultiple2.php on line 6
+[16-Jan-2013 16:09:12] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/team/public_html/wv/testmultiple2.php on line 8
+[16-Jan-2013 16:14:37] PHP Parse error:  syntax error, unexpected ';' in /home/team/public_html/wv/testmultiple2.php on line 6
+[16-Jan-2013 16:18:35] PHP Parse error:  syntax error, unexpected T_ECHO in /home/team/public_html/wv/testmultiple2.php on line 7
+[16-Jan-2013 19:53:34] PHP Parse error:  syntax error, unexpected '<' in /home/team/public_html/wv/testmultiple.php on line 27
+[16-Jan-2013 20:02:39] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/team/public_html/wv/testmultiple.php on line 33
+[17-Jan-2013 13:17:00] PHP Parse error:  syntax error, unexpected T_LNUMBER, expecting ',' or ';' in /home/team/public_html/wv/testmultiple.php on line 77
+[18-Jan-2013 10:39:28] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home/team/public_html/wv/lesions.php on line 78
+[18-Jan-2013 12:38:39] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/team/public_html/wv/testmultiple2.php on line 9
+[18-Jan-2013 12:44:15] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/team/public_html/wv/testmultiple2.php on line 32
+[18-Jan-2013 12:45:35] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/team/public_html/wv/testmultiple2.php on line 34
+[18-Jan-2013 12:46:55] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/team/public_html/wv/testmultiple2.php on line 34
+[18-Jan-2013 13:00:58] PHP Parse error:  syntax error, unexpected T_STRING in /home/team/public_html/wv/testmultiple2.php on line 55
+[18-Jan-2013 13:01:51] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:21) in /home/team/public_html/wv/testmultiple2.php on line 55
+[18-Jan-2013 13:02:33] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:21) in /home/team/public_html/wv/testmultiple2.php on line 55
+[18-Jan-2013 13:14:33] PHP Parse error:  syntax error, unexpected '<' in /home/team/public_html/wv/lesions.php on line 239
+[18-Jan-2013 13:41:15] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 75
+[18-Jan-2013 15:51:07] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 75
+[18-Jan-2013 16:05:58] PHP Parse error:  syntax error, unexpected '/' in /home/team/public_html/wv/testmultiple2.php on line 22
+[18-Jan-2013 16:07:03] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 16:11:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 16:12:53] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 16:14:26] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 16:16:46] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 16:25:41] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 16:28:17] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 16:30:54] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 16:35:03] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 16:36:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 16:40:40] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 16:43:24] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 16:46:56] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 16:49:03] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 17:00:25] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 17:00:58] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 17:03:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 17:04:39] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 17:56:46] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 18:01:06] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 18:05:07] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 18:09:11] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 18:14:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 18:15:12] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 18:16:29] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 18:26:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 18:27:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 18:30:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[18-Jan-2013 18:32:53] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[19-Jan-2013 11:18:20] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[19-Jan-2013 11:21:09] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[19-Jan-2013 11:25:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 78
+[19-Jan-2013 11:47:39] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 76
+[19-Jan-2013 11:48:08] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 76
+[19-Jan-2013 11:52:34] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 76
+[19-Jan-2013 11:53:05] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 76
+[19-Jan-2013 11:53:52] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 76
+[19-Jan-2013 11:54:28] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 76
+[19-Jan-2013 11:55:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 76
+[19-Jan-2013 11:55:45] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 76
+[19-Jan-2013 11:56:03] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 76
+[19-Jan-2013 11:56:34] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 76
+[19-Jan-2013 11:56:50] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 76
+[19-Jan-2013 11:57:02] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 76
+[19-Jan-2013 11:57:34] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 76
+[19-Jan-2013 11:57:56] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:23) in /home/team/public_html/wv/testmultiple2.php on line 76
+[19-Jan-2013 12:01:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/testmultiple2.php:77) in /home/team/public_html/wv/testmultiple2.php on line 78
+[19-Jan-2013 14:57:13] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/studyedit2.php:13) in /home/team/public_html/wv/studyedit2.php on line 29
+[19-Jan-2013 15:03:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/studyedit2.php:13) in /home/team/public_html/wv/studyedit2.php on line 29
+[19-Jan-2013 15:03:51] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/studyedit2.php:13) in /home/team/public_html/wv/studyedit2.php on line 29
+[19-Jan-2013 15:05:24] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/studyedit2.php:13) in /home/team/public_html/wv/studyedit2.php on line 30
+[19-Jan-2013 15:07:34] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/studyedit2.php:13) in /home/team/public_html/wv/studyedit2.php on line 30
+[20-Jan-2013 13:50:05] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 1 on MySQL result index 3 in /home/team/public_html/wv/settingsedit.php on line 117
+[20-Jan-2013 13:50:05] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 1 on MySQL result index 3 in /home/team/public_html/wv/settingsedit.php on line 118
+[20-Jan-2013 13:50:05] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 1 on MySQL result index 3 in /home/team/public_html/wv/settingsedit.php on line 119
+[20-Jan-2013 13:50:05] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 1 on MySQL result index 3 in /home/team/public_html/wv/settingsedit.php on line 120
+[20-Jan-2013 13:50:05] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 1 on MySQL result index 3 in /home/team/public_html/wv/settingsedit.php on line 121
+[20-Jan-2013 13:50:05] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 1 on MySQL result index 3 in /home/team/public_html/wv/settingsedit.php on line 122
+[20-Jan-2013 13:50:05] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 1 on MySQL result index 3 in /home/team/public_html/wv/settingsedit.php on line 123
+[20-Jan-2013 13:50:05] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 1 on MySQL result index 3 in /home/team/public_html/wv/settingsedit.php on line 124
+[20-Jan-2013 13:50:05] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 1 on MySQL result index 3 in /home/team/public_html/wv/settingsedit.php on line 125
+[20-Jan-2013 13:50:05] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 1 on MySQL result index 3 in /home/team/public_html/wv/settingsedit.php on line 126
+[20-Jan-2013 14:23:40] PHP Warning:  require(teamresponsefunctions.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/team/public_html/wv/statsupdate.php on line 150
+[20-Jan-2013 14:23:40] PHP Warning:  require(teamresponsefunctions.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/team/public_html/wv/statsupdate.php on line 150
+[20-Jan-2013 14:23:40] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'teamresponsefunctions.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/team/public_html/wv/statsupdate.php on line 150
+[20-Jan-2013 14:25:32] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/statsupdate.php on line 54
+[20-Jan-2013 14:25:32] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/statsupdate.php on line 207
+[20-Jan-2013 14:25:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/statsupdate.php:11) in /home/team/public_html/wv/statsupdate.php on line 236
+[20-Jan-2013 14:28:35] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/statsupdate.php:11) in /home/team/public_html/wv/statsupdate.php on line 237
+[20-Jan-2013 16:31:10] PHP Parse error:  syntax error, unexpected '<' in /home/team/public_html/wv/compareimages.php on line 44
+[20-Jan-2013 16:31:37] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/team/public_html/wv/compareimages.php on line 45
+[20-Jan-2013 19:11:09] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 22
+[20-Jan-2013 20:01:49] PHP Warning:  preg_split() [<a href='function.preg-split'>function.preg-split</a>]: No ending delimiter '-' found in /home/team/public_html/wv/testa.php on line 13
+[20-Jan-2013 20:02:33] PHP Warning:  preg_split() [<a href='function.preg-split'>function.preg-split</a>]: No ending delimiter '-' found in /home/team/public_html/wv/testa.php on line 13
+[20-Jan-2013 20:02:34] PHP Warning:  preg_split() [<a href='function.preg-split'>function.preg-split</a>]: No ending delimiter '-' found in /home/team/public_html/wv/testa.php on line 13
+[20-Jan-2013 20:03:20] PHP Warning:  preg_split() [<a href='function.preg-split'>function.preg-split</a>]: No ending delimiter '-' found in /home/team/public_html/wv/testa.php on line 13
+[20-Jan-2013 20:03:21] PHP Warning:  preg_split() [<a href='function.preg-split'>function.preg-split</a>]: No ending delimiter '-' found in /home/team/public_html/wv/testa.php on line 13
+[20-Jan-2013 20:05:50] PHP Warning:  preg_split() [<a href='function.preg-split'>function.preg-split</a>]: No ending delimiter '-' found in /home/team/public_html/wv/testa.php on line 14
+[20-Jan-2013 20:09:27] PHP Fatal error:  Function name must be a string in /home/team/public_html/wv/testa.php on line 16
+[20-Jan-2013 20:31:14] PHP Warning:  preg_split() [<a href='function.preg-split'>function.preg-split</a>]: Unknown modifier '/' in /home/team/public_html/wv/testa.php on line 10
+[20-Jan-2013 20:31:43] PHP Warning:  preg_split() [<a href='function.preg-split'>function.preg-split</a>]: Unknown modifier '/' in /home/team/public_html/wv/testa.php on line 10
+[20-Jan-2013 20:32:04] PHP Warning:  preg_split() [<a href='function.preg-split'>function.preg-split</a>]: Unknown modifier '/' in /home/team/public_html/wv/testa.php on line 10
+[20-Jan-2013 20:32:05] PHP Warning:  preg_split() [<a href='function.preg-split'>function.preg-split</a>]: Unknown modifier '/' in /home/team/public_html/wv/testa.php on line 10
+[20-Jan-2013 20:32:30] PHP Warning:  preg_split() [<a href='function.preg-split'>function.preg-split</a>]: Unknown modifier '/' in /home/team/public_html/wv/testa.php on line 10
+[20-Jan-2013 20:32:31] PHP Warning:  preg_split() [<a href='function.preg-split'>function.preg-split</a>]: Unknown modifier '/' in /home/team/public_html/wv/testa.php on line 10
+[20-Jan-2013 20:33:01] PHP Warning:  preg_split() [<a href='function.preg-split'>function.preg-split</a>]: Unknown modifier '/' in /home/team/public_html/wv/testa.php on line 10
+[21-Jan-2013 10:26:03] PHP Parse error:  syntax error, unexpected ')' in /home/team/public_html/wv/viewmultiple.php on line 55
+[21-Jan-2013 12:50:05] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/team/public_html/wv/patientedit.php on line 164
+[22-Jan-2013 10:47:02] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 22
+[22-Jan-2013 15:17:11] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 22
+[23-Jan-2013 11:49:26] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/scanadd.php:63) in /home/team/public_html/wv/scanadd.php on line 75
+[23-Jan-2013 15:54:09] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:60) in /home/team/public_html/wv/lesionsupdate.php on line 87
+[23-Jan-2013 16:02:45] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:84) in /home/team/public_html/wv/lesionsupdate.php on line 88
+[23-Jan-2013 16:04:11] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:84) in /home/team/public_html/wv/lesionsupdate.php on line 88
+[23-Jan-2013 16:05:49] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 88
+[23-Jan-2013 16:08:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:87) in /home/team/public_html/wv/lesionsupdate.php on line 88
+[23-Jan-2013 16:11:39] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:84) in /home/team/public_html/wv/lesionsupdate.php on line 90
+[23-Jan-2013 16:13:50] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:84) in /home/team/public_html/wv/lesionsupdate.php on line 90
+[23-Jan-2013 16:16:58] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:84) in /home/team/public_html/wv/lesionsupdate.php on line 91
+[24-Jan-2013 12:12:10] PHP Parse error:  syntax error, unexpected '=' in /home/team/public_html/wv/auditlog.php on line 11
+[24-Jan-2013 12:14:45] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 87
+[24-Jan-2013 12:14:45] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 109
+[24-Jan-2013 12:15:37] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 87
+[24-Jan-2013 12:15:37] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 109
+[24-Jan-2013 12:21:40] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 87
+[24-Jan-2013 12:21:40] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 109
+[24-Jan-2013 12:32:53] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 87
+[24-Jan-2013 12:32:53] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 109
+[24-Jan-2013 12:42:01] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 87
+[24-Jan-2013 12:42:01] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 109
+[24-Jan-2013 12:44:46] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 87
+[24-Jan-2013 12:44:46] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 109
+[24-Jan-2013 12:48:39] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 87
+[24-Jan-2013 12:48:39] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 109
+[24-Jan-2013 12:48:50] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 87
+[24-Jan-2013 12:48:50] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 109
+[24-Jan-2013 12:51:43] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 87
+[24-Jan-2013 12:51:43] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 109
+[24-Jan-2013 13:09:34] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 87
+[24-Jan-2013 13:09:34] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 109
+[24-Jan-2013 13:10:18] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 87
+[24-Jan-2013 13:10:18] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 109
+[24-Jan-2013 13:11:31] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 87
+[24-Jan-2013 13:11:31] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 109
+[24-Jan-2013 13:15:21] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/scanadd.php on line 54
+[24-Jan-2013 13:15:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/scanadd.php:54) in /home/team/public_html/wv/scanadd.php on line 77
+[24-Jan-2013 13:16:58] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 87
+[24-Jan-2013 13:16:58] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 109
+[24-Jan-2013 13:49:04] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 87
+[24-Jan-2013 13:49:04] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 109
+[24-Jan-2013 13:55:55] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 87
+[24-Jan-2013 13:55:55] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 109
+[24-Jan-2013 13:59:28] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 87
+[24-Jan-2013 13:59:28] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 109
+[24-Jan-2013 14:02:29] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 97
+[24-Jan-2013 14:03:20] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 87
+[24-Jan-2013 14:03:20] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 109
+[24-Jan-2013 14:05:16] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 98
+[24-Jan-2013 14:07:14] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 99
+[24-Jan-2013 14:14:48] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 99
+[24-Jan-2013 14:18:17] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 102
+[24-Jan-2013 14:20:13] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 102
+[24-Jan-2013 14:20:51] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 102
+[24-Jan-2013 14:23:16] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 102
+[24-Jan-2013 14:24:22] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 102
+[24-Jan-2013 14:27:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 102
+[24-Jan-2013 14:29:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 103
+[24-Jan-2013 14:30:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 104
+[24-Jan-2013 14:32:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 104
+[24-Jan-2013 14:34:31] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 104
+[24-Jan-2013 14:37:25] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 104
+[24-Jan-2013 14:38:15] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 104
+[24-Jan-2013 14:38:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 104
+[24-Jan-2013 14:41:42] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 105
+[24-Jan-2013 14:43:46] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 105
+[24-Jan-2013 14:45:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 105
+[24-Jan-2013 14:49:25] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/studies.php on line 15
+[24-Jan-2013 15:22:20] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 105
+[24-Jan-2013 15:23:59] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:53) in /home/team/public_html/wv/lesionsupdate.php on line 106
+[24-Jan-2013 15:26:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:53) in /home/team/public_html/wv/lesionsupdate.php on line 106
+[24-Jan-2013 15:27:31] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:53) in /home/team/public_html/wv/lesionsupdate.php on line 106
+[24-Jan-2013 15:28:09] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:53) in /home/team/public_html/wv/lesionsupdate.php on line 106
+[24-Jan-2013 15:35:13] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:53) in /home/team/public_html/wv/lesionsupdate.php on line 106
+[24-Jan-2013 15:37:33] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:53) in /home/team/public_html/wv/lesionsupdate.php on line 106
+[24-Jan-2013 15:39:52] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:53) in /home/team/public_html/wv/lesionsupdate.php on line 106
+[24-Jan-2013 15:48:49] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:53) in /home/team/public_html/wv/lesionsupdate.php on line 106
+[24-Jan-2013 15:49:46] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:53) in /home/team/public_html/wv/lesionsupdate.php on line 106
+[24-Jan-2013 15:51:20] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:73) in /home/team/public_html/wv/lesionsupdate.php on line 106
+[24-Jan-2013 16:50:49] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:57) in /home/team/public_html/wv/lesionsupdate.php on line 107
+[24-Jan-2013 16:51:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:57) in /home/team/public_html/wv/lesionsupdate.php on line 107
+[24-Jan-2013 17:09:19] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 1 on MySQL result index 3 in /home/team/public_html/wv/lesionsupdate.php on line 60
+[24-Jan-2013 17:09:19] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 2 on MySQL result index 3 in /home/team/public_html/wv/lesionsupdate.php on line 60
+[24-Jan-2013 17:09:19] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 3 on MySQL result index 3 in /home/team/public_html/wv/lesionsupdate.php on line 60
+[24-Jan-2013 17:09:19] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 4 on MySQL result index 3 in /home/team/public_html/wv/lesionsupdate.php on line 60
+[24-Jan-2013 17:09:19] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:60) in /home/team/public_html/wv/lesionsupdate.php on line 112
+[24-Jan-2013 17:14:20] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 1 on MySQL result index 4 in /home/team/public_html/wv/lesionsupdate.php on line 62
+[24-Jan-2013 17:14:20] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 2 on MySQL result index 5 in /home/team/public_html/wv/lesionsupdate.php on line 62
+[24-Jan-2013 17:14:20] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 3 on MySQL result index 6 in /home/team/public_html/wv/lesionsupdate.php on line 62
+[24-Jan-2013 17:14:20] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:62) in /home/team/public_html/wv/lesionsupdate.php on line 114
+[24-Jan-2013 17:18:20] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/scanadd.php:64) in /home/team/public_html/wv/scanadd.php on line 78
+[25-Jan-2013 16:00:13] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/useredit2.php:13) in /home/team/public_html/wv/useredit2.php on line 45
+[25-Jan-2013 16:00:37] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/useredit2.php:13) in /home/team/public_html/wv/useredit2.php on line 45
+[28-Jan-2013 10:38:22] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/team/public_html/wv/menu.php on line 77
+[28-Jan-2013 12:39:02] PHP Parse error:  syntax error, unexpected '<' in /home/team/public_html/wv/auditpatient.php on line 42
+[28-Jan-2013 12:39:28] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/team/public_html/wv/auditpatient.php on line 44
+[28-Jan-2013 12:39:29] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/team/public_html/wv/auditpatient.php on line 44
+[28-Jan-2013 12:39:31] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/team/public_html/wv/auditpatient.php on line 44
+[28-Jan-2013 12:41:36] PHP Parse error:  syntax error, unexpected '<' in /home/team/public_html/wv/auditpatient.php on line 40
+[28-Jan-2013 13:08:54] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 79
+[28-Jan-2013 13:13:21] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 80
+[28-Jan-2013 13:49:16] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/team/public_html/wv/auditpatient.php on line 109
+[28-Jan-2013 13:49:56] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 104
+[28-Jan-2013 13:49:56] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 104
+[28-Jan-2013 13:49:56] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: action not found in MySQL result index 5 in /home/team/public_html/wv/auditpatient.php on line 117
+[28-Jan-2013 13:49:56] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: action not found in MySQL result index 5 in /home/team/public_html/wv/auditpatient.php on line 117
+[28-Jan-2013 13:51:29] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 105
+[28-Jan-2013 13:51:29] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 105
+[28-Jan-2013 13:51:29] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: action not found in MySQL result index 5 in /home/team/public_html/wv/auditpatient.php on line 118
+[28-Jan-2013 13:51:29] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: action not found in MySQL result index 5 in /home/team/public_html/wv/auditpatient.php on line 118
+[28-Jan-2013 13:53:33] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 106
+[28-Jan-2013 13:53:33] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 106
+[28-Jan-2013 13:53:33] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: action not found in MySQL result index 5 in /home/team/public_html/wv/auditpatient.php on line 119
+[28-Jan-2013 13:53:33] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: action not found in MySQL result index 5 in /home/team/public_html/wv/auditpatient.php on line 119
+[28-Jan-2013 13:55:20] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 106
+[28-Jan-2013 13:55:20] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 106
+[28-Jan-2013 13:56:10] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 106
+[28-Jan-2013 13:56:10] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 106
+[28-Jan-2013 14:44:07] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 119
+[28-Jan-2013 14:44:07] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 166
+[28-Jan-2013 15:07:04] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 119
+[28-Jan-2013 15:07:04] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 166
+[28-Jan-2013 15:07:06] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 119
+[28-Jan-2013 15:07:06] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 166
+[28-Jan-2013 15:09:12] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 119
+[28-Jan-2013 15:09:12] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditpatient.php on line 166
+[28-Jan-2013 19:15:09] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 17
+[28-Jan-2013 19:15:09] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 87
+[28-Jan-2013 19:15:09] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patientedit.php on line 109
+[28-Jan-2013 20:15:26] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/team/public_html/wv/patientedit.php on line 180
+[28-Jan-2013 20:15:48] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/team/public_html/wv/patientedit.php on line 180
+[28-Jan-2013 20:15:50] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/team/public_html/wv/patientedit.php on line 180
+[29-Jan-2013 10:43:30] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/audituser.php on line 195
+[29-Jan-2013 10:45:28] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/audituser.php on line 195
+[29-Jan-2013 11:04:49] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/studyadd2.php:37) in /home/team/public_html/wv/studyadd2.php on line 43
+[29-Jan-2013 11:48:47] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/audituser.php on line 291
+[29-Jan-2013 19:43:30] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 33
+[29-Jan-2013 19:45:14] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 33
+[29-Jan-2013 19:48:40] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 33
+[29-Jan-2013 19:50:11] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 33
+[29-Jan-2013 20:14:32] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/team/public_html/wv/patients.php on line 70
+[29-Jan-2013 20:20:09] PHP Parse error:  syntax error, unexpected '<' in /home/team/public_html/wv/patients.php on line 79
+[30-Jan-2013 10:38:43] PHP Parse error:  syntax error, unexpected '&' in /home/team/public_html/wv/patients.php on line 128
+[30-Jan-2013 11:18:56] PHP Parse error:  syntax error, unexpected ';' in /home/team/public_html/wv/auditlog.php on line 30
+[30-Jan-2013 11:20:04] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: minutes_between not found in MySQL result index 4 in /home/team/public_html/wv/auditlog.php on line 23
+[30-Jan-2013 11:20:04] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: alert_email not found in MySQL result index 4 in /home/team/public_html/wv/auditlog.php on line 24
+[30-Jan-2013 11:20:04] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: last_email not found in MySQL result index 4 in /home/team/public_html/wv/auditlog.php on line 25
+[30-Jan-2013 11:22:02] PHP Parse error:  syntax error, unexpected ';' in /home/team/public_html/wv/auditlog.php on line 30
+[30-Jan-2013 11:29:08] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/team/public_html/wv/auditlog.php on line 30
+[30-Jan-2013 11:30:49] PHP Parse error:  syntax error, unexpected T_ECHO in /home/team/public_html/wv/auditlog.php on line 30
+[30-Jan-2013 11:31:00] PHP Parse error:  syntax error, unexpected T_ECHO in /home/team/public_html/wv/auditlog.php on line 30
+[30-Jan-2013 11:33:45] PHP Fatal error:  Call to undefined function  date_add() in /home/team/public_html/wv/auditlog.php on line 30
+[30-Jan-2013 12:00:43] PHP Fatal error:  Function name must be a string in /home/team/public_html/wv/auditlog.php on line 31
+[30-Jan-2013 12:02:19] PHP Fatal error:  Function name must be a string in /home/team/public_html/wv/auditlog.php on line 31
+[30-Jan-2013 12:43:57] PHP Parse error:  syntax error, unexpected ';' in /home/team/public_html/wv/auditlog.php on line 47
+[30-Jan-2013 13:39:53] PHP Parse error:  syntax error, unexpected T_ELSE in /home/team/public_html/wv/auditpatient.php on line 220
+[30-Jan-2013 14:56:47] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/doctors.php on line 14
+[31-Jan-2013 13:19:17] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 36
+[01-Feb-2013 11:30:31] PHP Parse error:  syntax error, unexpected '<' in /home/team/public_html/wv/patientadd.php on line 7
+[01-Feb-2013 11:38:26] PHP Parse error:  syntax error, unexpected '<' in /home/team/public_html/wv/patientadd.php on line 8
+[01-Feb-2013 12:00:38] PHP Parse error:  syntax error, unexpected '<' in /home/team/public_html/wv/patientedit.php on line 5
+[01-Feb-2013 12:02:06] PHP Parse error:  syntax error, unexpected '<' in /home/team/public_html/wv/patientedit.php on line 5
+[01-Feb-2013 12:21:04] PHP Parse error:  syntax error, unexpected '<' in /home/team/public_html/wv/teamtop2.php on line 51
+[01-Feb-2013 13:09:22] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/patientedit2.php:2) in /home/team/public_html/wv/teamtop1.php on line 3
+[01-Feb-2013 13:10:38] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/patientedit2.php:2) in /home/team/public_html/wv/teamtop1.php on line 3
+[01-Feb-2013 13:16:14] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/patientedit2.php:2) in /home/team/public_html/wv/teamtop1.php on line 3
+[01-Feb-2013 16:06:33] PHP Parse error:  syntax error, unexpected '<' in /home/team/public_html/wv/compareimages.php on line 2
+[01-Feb-2013 19:57:05] PHP Parse error:  syntax error, unexpected '<' in /home/team/public_html/wv/tabletest.php on line 37
+[02-Feb-2013 11:39:23] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/scanadd.php:65) in /home/team/public_html/wv/scanadd.php on line 79
+[02-Feb-2013 13:00:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teamtop1.php:20) in /home/team/public_html/wv/patientedit2.php on line 43
+[02-Feb-2013 15:21:24] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teamtop1.php:20) in /home/team/public_html/wv/teamaudit.php on line 10
+[02-Feb-2013 15:22:29] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teamtop1.php:20) in /home/team/public_html/wv/teamaudit.php on line 10
+[03-Feb-2013 13:09:02] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/vipalerts.php on line 26
+[03-Feb-2013 13:10:11] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/team/public_html/wv/vipalerts.php on line 25
+[03-Feb-2013 13:10:11] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/vipalerts.php on line 26
+[03-Feb-2013 13:30:33] PHP Parse error:  syntax error, unexpected ',' in /home/team/public_html/wv/vipalertadd.php on line 73
+[03-Feb-2013 13:53:22] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/team/public_html/wv/vipalertadd2.php on line 32
+[03-Feb-2013 13:53:22] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/vipalertadd2.php:32) in /home/team/public_html/wv/vipalertadd2.php on line 35
+[03-Feb-2013 14:27:58] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/team/public_html/wv/vipalertedit.php on line 63
+[03-Feb-2013 14:27:58] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/vipalertedit.php on line 64
+[03-Feb-2013 14:28:46] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/team/public_html/wv/vipalertedit.php on line 63
+[03-Feb-2013 14:28:46] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/vipalertedit.php on line 64
+[03-Feb-2013 14:29:27] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/team/public_html/wv/vipalertedit.php on line 63
+[03-Feb-2013 14:29:27] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/vipalertedit.php on line 64
+[03-Feb-2013 14:50:11] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/vipalertedit2.php:13) in /home/team/public_html/wv/vipalertedit2.php on line 25
+[03-Feb-2013 14:51:38] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/vipalertedit2.php:20) in /home/team/public_html/wv/vipalertedit2.php on line 25
+[03-Feb-2013 14:52:30] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/vipalertedit2.php:13) in /home/team/public_html/wv/vipalertedit2.php on line 25
+[03-Feb-2013 14:53:52] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/vipalertedit2.php:13) in /home/team/public_html/wv/vipalertedit2.php on line 25
+[03-Feb-2013 15:05:56] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/lesions.php on line 116
+[03-Feb-2013 15:05:56] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/auditlog.php on line 22
+[03-Feb-2013 17:17:32] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 41
+[03-Feb-2013 17:20:37] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home/team/public_html/wv/teamtop2.php on line 44
+[04-Feb-2013 11:36:49] PHP Parse error:  syntax error, unexpected '<' in /home/team/public_html/wv/testzoom2.php on line 35
+[04-Feb-2013 21:01:37] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/studyedit.php on line 64
+[04-Feb-2013 21:01:44] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/studyedit.php on line 64
+[06-Feb-2013 10:35:39] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/teamlogin.php:17) in /home/team/public_html/wv/teamlogin.php on line 53
+[06-Feb-2013 10:35:39] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/teamlogin.php:17) in /home/team/public_html/wv/teamlogin.php on line 55
+[06-Feb-2013 10:35:39] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teamlogin.php:17) in /home/team/public_html/wv/teamlogin.php on line 61
+[06-Feb-2013 10:36:01] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/teamlogin.php:17) in /home/team/public_html/wv/teamlogin.php on line 53
+[06-Feb-2013 10:36:01] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/teamlogin.php:17) in /home/team/public_html/wv/teamlogin.php on line 55
+[06-Feb-2013 10:36:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teamlogin.php:17) in /home/team/public_html/wv/teamlogin.php on line 61
+[06-Feb-2013 10:36:10] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/teamlogin.php:17) in /home/team/public_html/wv/teamlogin.php on line 53
+[06-Feb-2013 10:36:10] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/teamlogin.php:17) in /home/team/public_html/wv/teamlogin.php on line 55
+[06-Feb-2013 10:36:10] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teamlogin.php:17) in /home/team/public_html/wv/teamlogin.php on line 61
+[06-Feb-2013 10:39:11] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/teamlogin.php:17) in /home/team/public_html/wv/teamlogin.php on line 53
+[06-Feb-2013 10:39:11] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/teamlogin.php:17) in /home/team/public_html/wv/teamlogin.php on line 55
+[06-Feb-2013 10:39:11] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teamlogin.php:17) in /home/team/public_html/wv/teamlogin.php on line 61
+[06-Feb-2013 11:02:44] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/useredit2.php:13) in /home/team/public_html/wv/useredit2.php on line 52
+[06-Feb-2013 11:04:03] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/useredit2.php:13) in /home/team/public_html/wv/useredit2.php on line 52
+[06-Feb-2013 19:31:12] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/team/public_html/wv/auditreports.php:1) in /home/team/public_html/wv/teamtop1.php on line 3
+[07-Feb-2013 10:54:08] PHP Parse error:  syntax error, unexpected '=' in /home/team/public_html/wv/teampass2.php on line 29
+[07-Feb-2013 11:54:14] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass2.php:3) in /home/team/public_html/wv/teampass2.php on line 50
+[07-Feb-2013 11:56:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass2.php:3) in /home/team/public_html/wv/teampass2.php on line 50
+[07-Feb-2013 11:59:29] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass2.php:3) in /home/team/public_html/wv/teampass2.php on line 88
+[07-Feb-2013 12:03:12] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass2.php:3) in /home/team/public_html/wv/teampass2.php on line 91
+[07-Feb-2013 12:04:22] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass2.php:3) in /home/team/public_html/wv/teampass2.php on line 91
+[07-Feb-2013 12:04:53] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass2.php:3) in /home/team/public_html/wv/teampass2.php on line 91
+[07-Feb-2013 12:22:04] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'team'@'localhost' (using password: NO) in /home/team/public_html/wv/teampass3.php on line 4
+[07-Feb-2013 12:22:04] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/team/public_html/wv/teampass3.php on line 4
+[07-Feb-2013 12:22:04] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'team'@'localhost' (using password: NO) in /home/team/public_html/wv/teampass3.php on line 8
+[07-Feb-2013 12:22:04] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/team/public_html/wv/teampass3.php on line 8
+[07-Feb-2013 12:22:04] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'team'@'localhost' (using password: NO) in /home/team/public_html/wv/teampass3.php on line 12
+[07-Feb-2013 12:22:04] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/team/public_html/wv/teampass3.php on line 12
+[07-Feb-2013 12:22:04] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'team'@'localhost' (using password: NO) in /home/team/public_html/wv/teampass3.php on line 16
+[07-Feb-2013 12:22:04] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/team/public_html/wv/teampass3.php on line 16
+[07-Feb-2013 12:36:58] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/teampass3.php on line 99
+[07-Feb-2013 13:04:33] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/teampass3.php on line 84
+[07-Feb-2013 13:04:33] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass3.php:23) in /home/team/public_html/wv/teampass3.php on line 92
+[07-Feb-2013 13:06:48] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/teampass3.php on line 84
+[07-Feb-2013 13:06:48] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass3.php:23) in /home/team/public_html/wv/teampass3.php on line 92
+[07-Feb-2013 13:09:08] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/teampass3.php on line 84
+[07-Feb-2013 13:09:08] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass3.php:23) in /home/team/public_html/wv/teampass3.php on line 92
+[07-Feb-2013 13:18:35] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass4.php:3) in /home/team/public_html/wv/teampass4.php on line 32
+[07-Feb-2013 13:28:22] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass3.php:23) in /home/team/public_html/wv/teampass3.php on line 96
+[07-Feb-2013 13:29:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass3.php:23) in /home/team/public_html/wv/teampass3.php on line 96
+[07-Feb-2013 13:32:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass4.php:32) in /home/team/public_html/wv/teampass4.php on line 35
+[07-Feb-2013 13:37:14] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass3.php:23) in /home/team/public_html/wv/teampass3.php on line 96
+[07-Feb-2013 13:38:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass3.php:23) in /home/team/public_html/wv/teampass3.php on line 96
+[07-Feb-2013 13:41:26] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass3.php:3) in /home/team/public_html/wv/teampass3.php on line 96
+[07-Feb-2013 13:44:16] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass3.php:23) in /home/team/public_html/wv/teampass3.php on line 100
+[07-Feb-2013 13:45:52] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass3.php:3) in /home/team/public_html/wv/teampass3.php on line 100
+[07-Feb-2013 13:47:28] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass3.php:3) in /home/team/public_html/wv/teampass3.php on line 101
+[07-Feb-2013 13:49:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/teampass3.php:23) in /home/team/public_html/wv/teampass3.php on line 101
+[07-Feb-2013 14:54:48] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/auditlog.php:230) in /home/team/public_html/wv/teampass4.php on line 53
+[07-Feb-2013 14:57:34] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/auditlog.php:230) in /home/team/public_html/wv/teampass4.php on line 54
+[07-Feb-2013 19:04:36] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/teampass4.php on line 45
+[07-Feb-2013 19:06:34] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/teampass4.php on line 45
+[08-Feb-2013 20:23:41] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/doctors.php on line 21
+[09-Feb-2013 10:42:20] PHP Parse error:  syntax error, unexpected ',' in /home/team/public_html/wv/patients.php on line 30
+[10-Feb-2013 12:19:30] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/team/public_html/wv/vipalertadd.php on line 76
+[10-Feb-2013 12:59:05] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/team/public_html/wv/patients.php on line 30
+[11-Feb-2013 12:42:13] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/team/public_html/wv/auditlog.php on line 31
+[11-Feb-2013 12:46:54] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 12:52:52] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 12:58:10] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 12:58:50] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 12:59:34] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:00:06] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:00:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:07:30] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:09:59] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:11:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:11:54] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:17:02] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:17:24] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:19:58] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:20:15] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:20:39] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:20:57] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:22:11] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:23:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:24:05] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:29:19] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:30:14] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:38:54] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:39:13] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:43:03] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:43:24] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:44:17] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:45:43] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:46:52] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:47:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:47:24] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:50:34] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/team/public_html/wv/lesionsupdate.php on line 48
+[11-Feb-2013 13:52:42] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:55:02] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:55:34] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:56:44] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:57:42] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:58:30] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:58:46] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 13:59:47] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 14:00:10] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 14:04:07] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 14:08:11] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 14:10:58] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 14:11:07] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 14:11:47] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:25) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 14:40:39] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:100) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[11-Feb-2013 16:31:38] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/team/public_html/wv/auditlog.php on line 196
+[11-Feb-2013 16:33:21] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/team/public_html/wv/auditlog.php on line 211
+[11-Feb-2013 16:39:28] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 49
+[11-Feb-2013 20:48:07] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 49
+[12-Feb-2013 12:39:05] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 49
+[12-Feb-2013 12:43:54] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/team/public_html/wv/audituser.php on line 108
+[12-Feb-2013 12:44:58] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/team/public_html/wv/audituser.php on line 105
+[12-Feb-2013 12:45:59] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/team/public_html/wv/audituser.php on line 111
+[12-Feb-2013 12:52:10] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 49
+[13-Feb-2013 12:27:50] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/team/public_html/wv/auditlog.php on line 170
+[13-Feb-2013 12:30:00] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/team/public_html/wv/auditpatient.php on line 210
+[13-Feb-2013 12:41:05] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:23) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[13-Feb-2013 12:42:22] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:23) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[13-Feb-2013 12:42:52] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:23) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[13-Feb-2013 12:43:06] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:23) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[13-Feb-2013 12:43:44] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:23) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[13-Feb-2013 12:45:08] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/team/public_html/wv/auditpatient.php on line 209
+[13-Feb-2013 12:52:48] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:23) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[13-Feb-2013 12:54:38] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:23) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[13-Feb-2013 12:55:53] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/team/public_html/wv/lesionsupdate.php on line 46
+[13-Feb-2013 13:03:59] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:23) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[13-Feb-2013 13:04:11] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:23) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[13-Feb-2013 13:04:24] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:23) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[13-Feb-2013 13:06:37] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/team/public_html/wv/lesionsupdate.php:53) in /home/team/public_html/wv/lesionsupdate.php on line 131
+[13-Feb-2013 13:46:23] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/compareimages.php on line 54
+[13-Feb-2013 13:46:43] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/compareimages.php on line 54
+[17-Feb-2013 14:55:25] PHP Parse error:  syntax error, unexpected ';' in /home/team/public_html/wv/view2.php on line 2
+[17-Feb-2013 15:03:50] PHP Warning:  getimagesize(http://www.websoftmagic.com/teamdoc1000/104-102111-1.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 401 Authorization Required
+ in /home/team/public_html/wv/lesionview.php on line 58
+[17-Feb-2013 15:05:50] PHP Warning:  getimagesize(http://www.websoftmagic.com/teamdoc1000/104-102111-2.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 401 Authorization Required
+ in /home/team/public_html/wv/lesionview.php on line 58
+[17-Feb-2013 15:11:53] PHP Warning:  getimagesize(http://www.websoftmagic.com/teamdoc1000/104-102111-1.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 401 Authorization Required
+ in /home/team/public_html/wv/lesionview.php on line 58
+[17-Feb-2013 15:13:54] PHP Warning:  getimagesize(http://www.websoftmagic.com/teamdoc1000/100-030912-1.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 401 Authorization Required
+ in /home/team/public_html/wv/view2.php on line 2
+[17-Feb-2013 15:54:52] PHP Warning:  getimagesize(http://www.websoftmagic.com/teamdoc1000/100-030912-1.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 401 Authorization Required
+ in /home/team/public_html/wv/view2.php on line 2
+[17-Feb-2013 16:09:02] PHP Warning:  getimagesize(../teamdoc1000/-123169-.) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home/team/public_html/wv/viewmultiple.php on line 73
+[17-Feb-2013 16:09:02] PHP Warning:  getimagesize(../teamdoc1000/-123169-.) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home/team/public_html/wv/viewmultiple.php on line 74
+[17-Feb-2013 19:30:17] PHP Parse error:  syntax error, unexpected $end in /home/team/public_html/wv/viewscale.php on line 19
+[18-Feb-2013 16:10:37] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/studies.php on line 30
+[11-Apr-2013 19:30:41] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/team/public_html/wv/patients.php on line 49
+[28-Sep-2013 20:03:10] PHP Warning:  getimagesize(http://...@www.websoftmagic.com/teamdoc1000/catherine100-021313-1.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home3/team/public_html/wv/viewmultiple.php on line 80
+[28-Sep-2013 20:03:10] PHP Warning:  getimagesize(http://...@www.websoftmagic.com/teamdoc1000/catherine100-021313-1.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home3/team/public_html/wv/viewmultiple.php on line 81
+[28-Sep-2013 20:03:54] PHP Warning:  getimagesize(http://...@www.websoftmagic.com/teamdoc1000/catherine100-021313-1.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home3/team/public_html/wv/lesionview.php on line 63
+[30-Sep-2013 11:44:59] PHP Warning:  getimagesize(http://...@www.websoftmagic.com/teamdoc1000/M100-042906-1.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home3/team/public_html/wv/lesionview.php on line 63
+[30-Sep-2013 11:52:16] PHP Warning:  getimagesize(http://...@www.websoftmagic.com/teamdoc1000/M100-120306-1.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home3/team/public_html/wv/lesionview.php on line 63
+[30-Sep-2013 12:35:02] PHP Warning:  getimagesize(http://...@www.websoftmagic.com/teamdoc1000/M100-093013-1.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home3/team/public_html/wv/lesionview.php on line 63
+[30-Sep-2013 12:38:42] PHP Warning:  getimagesize(http://...@www.websoftmagic.com/teamdoc1000/M100-093013-2.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home3/team/public_html/wv/lesionview.php on line 63
+[30-Sep-2013 12:55:29] PHP Warning:  getimagesize(http://...@www.websoftmagic.com/teamdoc1000/M100-120306-2.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home3/team/public_html/wv/lesionview.php on line 63
+[05-Oct-2013 11:44:54] PHP Warning:  getimagesize(http://...@www.websoftmagic.com/teamdoc1000/143-082812-13.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home3/team/public_html/wv/lesionview.php on line 63
+[05-Oct-2013 11:49:45] PHP Warning:  getimagesize(http://...@www.websoftmagic.com/teamdoc1000/143-060512-13.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home3/team/public_html/wv/lesionview.php on line 63
+[05-Oct-2013 12:02:08] PHP Warning:  getimagesize(http://...@www.websoftmagic.com/teamdoc1000/143-112012-13.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home3/team/public_html/wv/lesionview.php on line 63
+[05-Oct-2013 12:11:04] PHP Warning:  getimagesize(http://...@www.websoftmagic.com/teamdoc1000/143-080613-13.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home3/team/public_html/wv/lesionview.php on line 63
+[05-Oct-2013 12:26:34] PHP Warning:  getimagesize(http://...@www.websoftmagic.com/teamdoc1000/143-021213-13.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home3/team/public_html/wv/lesionview.php on line 63
+[05-Oct-2013 12:33:14] PHP Warning:  getimagesize(http://...@www.websoftmagic.com/teamdoc1000/143-050713-13.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home3/team/public_html/wv/lesionview.php on line 63
+[05-Oct-2013 12:39:24] PHP Warning:  getimagesize(http://...@www.websoftmagic.com/teamdoc1000/143-061713-13.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home3/team/public_html/wv/lesionview.php on line 63
+[06-Oct-2013 12:41:55] PHP Warning:  getimagesize(http://...@www.websoftmagic.com/teamdoc1000/catherine100-021313-1.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home3/team/public_html/wv/viewmultiple.php on line 80
+[06-Oct-2013 12:41:55] PHP Warning:  getimagesize(http://...@www.websoftmagic.com/teamdoc1000/catherine100-021313-1.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home3/team/public_html/wv/viewmultiple.php on line 81
+[06-Oct-2013 12:45:37] PHP Warning:  getimagesize(http://...@www.websoftmagic.com/teamdoc1000/101-051013-3.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home3/team/public_html/wv/viewmultiple.php on line 80
+[06-Oct-2013 12:45:37] PHP Warning:  getimagesize(http://...@www.websoftmagic.com/teamdoc1000/101-051013-3.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home3/team/public_html/wv/viewmultiple.php on line 81
+[13-Oct-2013 15:36:19] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home3/team/public_html/wv/patients.php on line 49
+[15-Oct-2013 20:01:31] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home3/team/public_html/wv/patients.php on line 49
+[16-Oct-2013 11:52:38] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home3/team/public_html/wv/patients.php on line 49
+[18-Nov-2013 13:53:58] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home3/team/public_html/wv/studyedit.php on line 64

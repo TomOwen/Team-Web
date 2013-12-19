@@ -1,0 +1,41 @@
+<?php
+$teamtitle = "TEAM Compare Images";
+include 'teamtop1.php';
+?>
+<script src="http://rvolve.com/js/zoom-pic-intro-3.0.js" type="text/javascript"></script>
+<?php
+include 'teamtop2.php';
+?>
+<table style="margin: auto;" border="0" cellpadding="2"
+cellspacing="2" width="75%">
+<tbody>
+<tr>
+<?php
+$audit_type = 'v3';
+include 'auditlog.php';
+$patient_id=$_GET['patient_id'];
+$patient_name=$_GET['patient_name'];
+$fn=$_GET['fn'];
+$patient_name=$_GET['patient_name'];
+$scan_date=$_GET['scan_date'];
+$lesion_size=$_GET['lesion_size'];
+$lesion_number=$_GET['lesion_number'];
+
+$audit_type = 'v3';
+include 'auditlog.php';
+
+$datedisplay2 = date("m/d/y",strtotime($scan_date));
+echo "<td valign=\"top\" align=\"center\"><h2>Image for $patient_name ($patient_id) - Lesion #$lesion_number on $datedisplay2 was ($lesion_size mm)</h2>";
+?>
+</td>
+<?php
+
+echo "<tr><td align=center><div id=\"my_zoom1\" class=\"zoompic\" data-src=\"http://$imagedoc_server/$fn\" data-animate=\"true\" data-width=\"500\" data-height=\"500\" data-zoomicon=\"gray\"></div> </td></tr>";
+
+
+?>
+</tbody>
+</table>
+<br>
+</body>
+</html>

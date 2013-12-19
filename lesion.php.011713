@@ -1,0 +1,133 @@
+<?
+require '../db/dbaccess.php';
+session_start();
+if(!session_is_registered(team1)){
+header("location:index.php");
+}
+$storedVars = $_SESSION['team1'];
+$user_name = $storedVars[1];
+$user_teamid = $storedVars[2];
+$user_admin_access = $storedVars[3];
+$imagedoc_server = $storedVars[4];
+$doc_type = $storedVars[5];
+$patient_id = $_GET['patient_id'];
+$scan_date = $_GET['scan_date'];
+$patient_name = $_GET['patient_name'];
+$scan_report_online = $_GET['scan_report_online'];
+
+//print_r($_POST);
+//print_r($_GET);
+?>
+<html>
+    <head>
+        <title>TEAM Scan Details</title>
+<?php
+
+include 'menu.php';
+?>
+<?php
+$web_date = date("m/d/y",strtotime($scan_date));
+$query = "select lesion_teamid,lesion_number,lesion_size,lesion_comment,lesion_target,lesion_media_type,lesion_media_online,lesion_node from lesion where lesion_teamid = $user_teamid and lesion_patient_id = '$patient_id' and lesion_scan_date = '$scan_date' order by lesion_number";
+$dbresult = mysql_query($query, $dbconnect);
+$num=mysql_numrows($dbresult);
+?>
+<table style="margin: auto;" border="0" cellpadding="2"
+cellspacing="2" width="75%">
+<tbody>
+<tr>
+<?php
+echo "<td valign=\"top\" align=center><h3>Scan Details from $web_date for Patient $patient_name ($patient_id)</h3><br>";
+?>
+</td>
+</tbody>
+</table>
+<table style="margin: auto;" border="0" cellpadding="2"
+cellspacing="2" width="75%">
+<tbody>
+<tr>
+<td valign="top">Type of Lesion<br>
+</td>
+<td valign="top">Size MM<br>
+</td>
+<td valign="top">Lesion/Lymph Node<br>
+</td>
+<td valign="top">Image Online<br>
+</td>
+<td valign="top">Comments<br>
+</td>
+
+</tr>
+<?php              
+$i=0;
+while ($i < $num) {
+  $lesion_number=mysql_result($dbresult,$i,"lesion_number");
+  $lesion_size=mysql_result($dbresult,$i,"lesion_size");
+  $lesion_comment=mysql_result($dbresult,$i,"lesion_comment");
+  $lesion_target=mysql_result($dbresult,$i,"lesion_target");
+  $lesion_media_type=mysql_result($dbresult,$i,"lesion_media_type");
+  $lesion_media_online=mysql_result($dbresult,$i,"lesion_media_online");
+  $lesion_node=mysql_result($dbresult,$i,"lesion_node");
+  $type = "Target #";
+  if ($lesion_target == 'N') $type = "Non Target #";
+  
+  $urledit = "lesionedit.php?patient_id=$patient_id&scan_date=$scan_date&lesion_number=$lesion_number&patient_name=$patient_name";
+  $ltype = "Lesion";
+  if ($lesion_node == 'Y') $ltype = "Lymph Node";
+  echo "<tr>";
+  echo "<td valign=\"top\"><a href=\"$urledit\">$type$lesion_number</a><br>";
+  echo "</td>";
+  echo "<td valign=\"top\">$lesion_size<br>";
+  echo "</td>";
+  echo "<td valign=\"top\">$ltype<br>";
+  echo "</td>";
+  echo "<td valign=\"top\">$lesion_media_online<br>";
+  echo "</td>";
+  echo "<td valign=\"top\">$lesion_comment<br>";
+  echo "</td>";
+  
+  echo "</tr>";
+  $i++;
+  }
+
+?>
+</tbody>
+</table><br><br>
+<table style="margin: auto;" border="0" cellpadding="2"
+cellspacing="2" width="75%">
+<tbody>
+<tr><td align=center>
+<form action="scandelete.php" method="get" onsubmit="return confirm('Deleting a scan date will also delete all of his/her lesions.\n\nClick OK to proceed\n\nClick Cancel to Cancel');">
+<input type="submit" value="Delete This Entire Scan and All its lesions">
+
+<?php
+echo "<input type=\"hidden\" name=\"patient_id\" value=\"$patient_id\">";
+echo "<input type=\"hidden\" name=\"scan_date\" value=\"$scan_date\">";
+echo "<input type=\"hidden\" name=\"patient_name\" value=\"$patient_name\">";
+?>
+</form>
+</td></tr>
+</tbody>
+</table>
+
+<table style="margin: auto;" border="0" cellpadding="2"
+cellspacing="2" width="75%">
+<tbody>
+<tr><td align=center>
+<?php
+// check if doc is online then set link or no link
+$newdate = date("mdy",strtotime($scan_date));
+$fn = "$patient_id-$newdate.$doc_type";
+$myurl = "http://$imagedoc_server/$fn";
+if ($scan_report_online == 'Y') {
+echo "<td align=center valign=\"top\"><a target=\"_blank\" href=\"$myurl\">View Patient Scan Document</a><br><br></td></tr>";
+} else {
+echo "<td align=center valign=\"top\">No Scan Document Online<br><br></td></tr>";
+}
+?>
+</td></tr>
+</tbody>
+</table>
+
+<br>
+</body>
+</html>

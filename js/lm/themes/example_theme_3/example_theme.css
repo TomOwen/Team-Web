@@ -1,0 +1,127 @@
+/**
+ * The original design of this theme was taken from www.stunicholls.com and
+ * adapted for using with liveMenu script. See the copyright notice below.
+ */
+
+/* ================================================================ 
+This copyright notice must be kept untouched in the stylesheet at 
+all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.stunicholls.com/menu/pro_dropdown_3.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+
+/* include base stylesheet */
+@import url("../../base.css");
+
+.lm-menu {
+    height:38px;
+    background:#fff url(images/three_0.gif) repeat-x;
+    font-family:arial, verdana, sans-serif;
+}
+.lm-menu {
+    width: 100%;
+}
+.lm-menu li {
+    width: 90px;
+}
+.lm-menu li a {
+    height:35px;
+    line-height:33px;
+    color:#ccc;
+    text-decoration:none;
+    font-size:11px;
+    font-weight:bold;
+    padding:0 0 0 12px;
+    cursor:pointer;
+    background: url(images/three_0.gif);
+}
+.lm-menu li a span {
+    display:block;
+    padding:0 24px 0 12px;
+    height:35px;
+    background: url(images/three_0.gif) right top no-repeat;
+}
+
+.lm-menu li a span.down {
+    display:block;
+    height:35px;
+    background: url(images/three_0a.gif) no-repeat right top;
+}
+
+.lm-menu li a:hover,
+.lm-menu li.lm-selected-item a {
+    color:#fff;
+    background: url(images/three_1.gif) no-repeat;
+}
+
+.lm-menu li a:hover span,
+.lm-menu li.lm-selected-item a span {
+    background:url(images/three_1.gif) no-repeat right top;
+}
+
+.lm-menu li a:hover span.down,
+.lm-menu li.lm-selected-item a span.down {
+    background:url(images/three_1a.gif) no-repeat right top;
+}
+
+.lm-submenu {
+    font-family:arial, verdana, sans-serif;
+    background: #50b5d0;
+    padding:3px;
+    border:1px solid #0b4d97;
+    white-space:nowrap;
+    width:90px;
+    height:auto;
+}
+
+.lm-submenu li {
+    height:20px;
+    width:90px;
+    font-weight:normal;
+}
+
+.lm-submenu li a {
+    font-size:11px;
+    height:18px;
+    width:88px;
+    line-height:18px;
+    text-indent:5px;
+    color:#000;
+    text-decoration:none;
+    border:1px solid #50b5d0;
+}
+
+.lm-submenu li a.opener {
+    background:#50b5d0 url(images/arrow.gif) 80px 6px no-repeat;
+}
+
+.lm-submenu li a:hover,
+.lm-submenu li.lm-selected-item a {
+    background:#3f96a9;
+    color:#fff;
+    border-color:#fff;
+}
+
+.lm-submenu li a.opener:hover,
+.lm-submenu li.lm-selected-item a.opener {
+    background:#3f96a9 url(images/arrow_over.gif) 80px 6px no-repeat;
+    color:#fff;
+}
+
+.lm-submenu li b {
+    display:block;
+    font-size:11px;
+    height:18px;
+    width:88px;
+    line-height:18px;
+    margin-bottom:3px;
+    text-indent:6px;
+    color:#ff6;
+    border-bottom:1px solid #ff6;
+    cursor:default;
+}
+

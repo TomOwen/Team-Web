@@ -1,0 +1,58 @@
+
+/* include base stylesheet */
+@import url("../../base.css");
+
+.lm-up-arrow, .lm-right-arrow, .lm-down-arrow, .lm-left-arrow {
+    width: 11px; height: 11px;
+    background: transparent url("images/arrows.gif") no-repeat;
+    float: right;
+    margin-top: 5px;
+}
+.lm-right-arrow { background-position: 0 0 }
+.lm-up-arrow { background-position: 0 -11px }
+.lm-down-arrow { background-position: 0 -22px }
+.lm-left-arrow { background-position: 0 -33px }
+
+
+.lm-menu li, .lm-submenu li {
+    padding: 1px;
+    cursor: pointer;
+}
+
+.lm-menu li { width: 100px; }
+.lm-submenu li { width: 150px; }
+
+.lm-menu li a, .lm-submenu li a {
+    height: 21px;
+    line-height: 21px; /* IE <8 need it */
+    font-size: 14px;
+    font-family: tahoma,arial;
+    text-decoration: none;
+    display: block;
+    background: #eeeeee url("images/bg1.png") repeat-x;
+    color: #000000;
+    padding-left: 5px;
+    border: solid 1px #eeeeee;
+    -moz-border-radius-topright: 8px; -webkit-border-top-right-radius: 8px;
+    -moz-border-radius-bottomright: 8px; -webkit-border-bottom-right-radius: 8px;
+}
+
+.lm-menu li a:hover, .lm-submenu li a:hover {
+    background: #eeeeee url("images/bg2.png") repeat-x;
+    color: #DB0007;
+}
+
+.lm-horizontal li a { border-top: 2px solid #cccccc; }
+.lm-horizontal li a:hover { border-top-color: #DB0007; }
+
+.lm-vertical li a { border-left: 2px solid #cccccc; }
+.lm-vertical li a:hover { border-left-color: #DB0007; }
+
+li.lm-selected-item a {
+    background: #eeeeee url("images/bg2.png") repeat-x;
+    color: #DB0007;
+}
+
+.lm-horizontal li.lm-selected-item a { border-top-color: #DB0007; }
+.lm-vertical li.lm-selected-item a { border-left-color: #DB0007; }
+

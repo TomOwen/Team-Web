@@ -1,0 +1,34 @@
+.lm-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.lm-submenu {
+    display: none;
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding-left: 0;
+}
+.lm-container {
+    position: absolute;
+    top: -1000px;
+    overflow: hidden;
+    visibility: hidden;
+    margin: 0; padding: 0;
+}
+/* Konqueror and IE6 need this to slide horizontal submenus correctly: */
+.lm-submenu.lm-horizontal { float: left; } 
+
+.lm-horizontal li {
+    float: left;
+}
+
+.lm-menu li, .lm-submenu li {
+    /* Should be specified in order to prevent ie6 unpredictable behaviour */
+    width: 80px;
+    background: transparent url(bogus); /* url(bogus) is a fix for IE */
+}
+.lm-menu li a, .lm-submenu li a {
+    display: block;
+}
